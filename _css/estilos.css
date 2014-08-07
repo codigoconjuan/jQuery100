@@ -1,0 +1,71 @@
+body {
+	background-color: #006795;
+	margin: 0;
+	padding: 0;
+}
+#navegacion li {
+	margin-bottom: 20px;
+}
+.container {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 100px;
+	padding: 30px;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;      
+	border-radius: 10px;  
+}
+.primero a {
+	color:red;
+}
+
+.ultimo a {
+	color: black;
+}
+
+.enlace a {
+	color: gray;
+}
+
+.odd a {
+	color:red;
+}
+.even a {
+	color:green;
+}
+.padre {
+	background-color: #e1e1e1;
+}
+.hijo {
+	background-color: red;
+}
+.penultimo {
+	background-color: red;
+}
+
+#inferior {
+	width:400px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px dashed black;
+}
+#inferior.activo {
+	background-color: red;
+}
+
+.rojo {
+	background-color: red;
+}
+
+.resaltar {
+	background-color: yellow;
+}
+
+#contenido {
+	height: 200px;
+	width:500;
+	margin:0 auto;
+	border: 1px dashed red;
+}
