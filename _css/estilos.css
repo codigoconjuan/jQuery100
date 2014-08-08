@@ -69,3 +69,45 @@ body {
 	margin:0 auto;
 	border: 1px dashed red;
 }
+
+.animar {
+	background-color: green;
+	color:white;
+	text-align: center;
+	padding: 5px 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.enviado {
+	border: 3px dashed green;
+	padding: 20px;
+	font-size: 3em;
+	text-align: center;
+	display: none;
+}
+.ocultar, .mostrar {
+	border: 3px dashed green;
+	padding: 20px;
+	font-size: 3em;
+	text-align: center;
+	cursor: pointer;
+}
+.premio {
+	height: 300px;
+	text-align: center;
+	width:400px;
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	padding-top:150px;
+	display: none;
+}
+.animacion {
+	background-color: red;
+	width: 400px;
+	transform: translateX(300px);
+	transition: all 1s ease;
+}
+.importante {
+	background-color: red;
+}
