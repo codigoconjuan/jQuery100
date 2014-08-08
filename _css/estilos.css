@@ -111,3 +111,45 @@ body {
 .importante {
 	background-color: red;
 }
+.navegacionjson {
+	min-height: 300px;
+}
+
+#sociales {
+	clear: both;
+	display: inline-block;
+	background-color: #e1e1e1;
+	padding: 10px 30px;
+}
+
+.social {
+	list-style: none;
+}
+.social li {
+float: left;
+text-align: center;
+background-repeat: no-repeat;
+background-position: top left;
+height: 34px;
+padding-left: 18px;
+line-height: 30px;
+margin-right: 20px;
+}
+.social li a {
+	padding: 5px 20px;
+	color:black;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial,helvetica, sans-serif;
+}
+
+.Facebook {
+	background-image: url(../_img/facebook.png);
+}
+.Twitter {
+	background-image: url(../_img/twitter.png);
+}
+.Youtube {
+	background-image: url(../_img/youtube.png);
+}
