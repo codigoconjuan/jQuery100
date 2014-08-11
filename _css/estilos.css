@@ -3,6 +3,11 @@ body {
 	margin: 0;
 	padding: 0;
 }
+ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
 #navegacion li {
 	margin-bottom: 20px;
 }
@@ -19,6 +24,21 @@ body {
 }
 .primero a {
 	color:red;
+}
+.zoom {
+	display:inline-block;
+	position: relative;
+}
+
+.zoom:after {
+	content:'';
+	display:block; 
+	width:33px; 
+	height:33px; 
+	position:absolute; 
+	top:0;
+	right:0;
+	background:url(../_img/icon.png);
 }
 
 .ultimo a {
