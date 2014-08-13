@@ -141,6 +141,9 @@ ul {
 	background-color: #e1e1e1;
 	padding: 10px 30px;
 }
+.clearfix {
+	clear:both;
+}
 
 .social {
 	list-style: none;
@@ -196,4 +199,19 @@ cursor: pointer;
 }
 div#reproductor {
 height: 400px;
+}
+#mensaje {
+	width:400px;
+	height:100px;
+}
+#mandar {
+	height:30px;
+	width:200px;
+	background-color: #0084B4;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	display:block;
+	clear:both;
+	margin-top: 20px;
 }
