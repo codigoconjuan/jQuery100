@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>055 - jQuery Plugins - Scroll</title>
+
+	<link rel="stylesheet" type="text/css" href="../_css/estilos.css">
+
+	
+	<script src="../_js/jquery.js"></script>
+	
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+
+	<div class="container">
+			<h1>Aprende jQuery</h1>
+
+			<section id="uno" class="scroller">
+
+				<a data-scroll href="#dos">Ir a la sección dos</a>
+
+			</section>
+
+			<section id="dos" class="scroller">
+				Bienvenido a la sección 2
+			</section>
+	</div>
+	
+
+<style>
+.scroller {
+	height:800px;
+}
+#uno {
+	background-color: red;
+
+}
+#dos {
+	background-color: blue;
+	color:white;
+	font-size: 50px;
+}
+</style>
+</body>
+</html>
