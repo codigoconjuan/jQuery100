@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>050 - jQuery Plugins - Barras Laterales</title>
+
+	<link rel="stylesheet" type="text/css" href="../_css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../_css/jquery.pageslide.css">
+
+</head>
+<body>
+
+    <div id="content">
+
+                <a href="#modal" class="revelar">REVELAR EL CONTENIDO OCULTO</a>
+
+        <div id="modal">
+            <h2>Modal</h2>
+            <p>Desde un modal </p>
+            <p><a href="javascript:$.pageslide.close()">Cerrar</a></p>
+        </div>
+    </div>
+	<script src="../_js/jquery.js"></script>
+	<script src="../_js/jquery.pageslide.min.js"></script>
+    <script>
+        $(".revelar").pageslide({ direction: "left", modal: true });
+    </script>
+</body>
+</html>
